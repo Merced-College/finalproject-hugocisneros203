@@ -3,6 +3,8 @@
 #include <limits>
 #include "TaskManager.h"
 
+using namespace std;
+
 // -------------------------------------------
 // Helper: clear bad input from cin
 // -------------------------------------------
@@ -16,7 +18,7 @@ void clearInput() {
 // -------------------------------------------
 void showMenu() {
     std::cout << "\n========================================\n";
-    std::cout << "         STUDENT TASK MANAGER\n";
+    std::cout << "         Hugo's To Do List\n";
     std::cout << "========================================\n";
     std::cout << "  1. Add a task\n";
     std::cout << "  2. Remove a task\n";
@@ -58,7 +60,7 @@ int main() {
             std::string name;
             int pChoice = 0;
 
-            std::cout << "  Task name: ";
+            std::cout << "  Name the Task: ";
             std::getline(std::cin, name);
             if (name.empty()) {
                 std::cout << "  Task name cannot be empty.\n";

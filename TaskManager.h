@@ -3,7 +3,7 @@
 
 #include <vector>
 #include "Task.h"
-#include "SoundPlayer.h"
+//#include "SoundPlayer.h"
 #include "Points.h"
 #include "SavedFiles.h"
 
@@ -13,7 +13,7 @@
 class TaskManager {
 private:
     std::vector<Task> tasks;
-    SoundPlayer soundPlayer;
+    //SoundPlayer soundPlayer;
     Points points;
     SavedFiles savedFiles;
 

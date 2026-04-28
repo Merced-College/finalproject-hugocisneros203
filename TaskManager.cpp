@@ -60,7 +60,7 @@ void TaskManager::completeTask(int index) {
     }
     t.setCompleted(true);
     points.addPoints(t.getPriority());
-    soundPlayer.playHappy();
+   
     sortTasks();
 }
 
@@ -76,7 +76,7 @@ void TaskManager::uncompleteTask(int index) {
     }
     t.setCompleted(false);
     points.subtractPoints(t.getPriority());
-    soundPlayer.playSad();
+    
     sortTasks();
 }
 

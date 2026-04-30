@@ -27,8 +27,7 @@ void showMenu() {
     std::cout << "  5. View all tasks\n";
     std::cout << "  6. View stats & points\n";
     std::cout << "  7. Save tasks\n";
-    std::cout << "  8. Load tasks\n";
-    std::cout << "  9. Exit\n";
+    std::cout << "  8. Exit\n";
     std::cout << "========================================\n";
     std::cout << "  Enter choice: ";
 }

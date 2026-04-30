@@ -23,7 +23,7 @@ void showMenu() {
     std::cout << "  1. Add a task\n";
     std::cout << "  2. Remove a task\n";
     std::cout << "  3. Mark task as complete\n";
-    std::cout << "  4. Mark task as incomplete\n";
+    //std::cout << "  4. Mark task as incomplete\n";
     std::cout << "  5. View all tasks\n";
     std::cout << "  6. View stats & points\n";
     std::cout << "  7. Save tasks\n";
